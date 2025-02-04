@@ -5,8 +5,8 @@
 ]]
 
 local function loadAutoFarm()
-    local repoURL = "https://raw.githubusercontent.com/yourname/yourrepo/main/AutoFarm.lua"
-    local fallbackURL = "https://cdn.jsdelivr.net/gh/yourname/yourrepo@main/AutoFarm.lua"
+    local repoURL = "https://raw.githubusercontent.com/Hamazzis/Tested/refs/heads/main/AutoFarm.lua"
+    local fallbackURL = "https://cdn.jsdelivr.net/Hamazzis/Tested/refs/heads/main/AutoFarm.lua"
     
     local function loadScript(url)
         local success, content = pcall(function()
